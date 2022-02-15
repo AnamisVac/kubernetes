@@ -1,0 +1,29 @@
+    1   kubeadm init --apiserver-advertise-address $(hostname -i) --pod-network-cidr 10.5.0.0/16
+    2  kubectl apply -f https://raw.githubusercontent.com/cloudnativelabs/kube-router/master/daemonset/kubeadm-kuberouter.yaml
+    3   kubectl apply -f https://raw.githubusercontent.com/kubernetes/website/master/content/en/examples/application/nginx-app.yaml
+    4  kubectl get pods
+    5  git
+    6  $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+    7   git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+    8   git clone https://github.com/AnamisVac/kubernetes.git
+    9  ls
+   10*  kubectl apply -f pod.ym
+   11  kubectl get pods
+   12  cd
+   13* cd kube
+   14  git pull
+   15  kubectl apply -f pod.yml 
+   16  $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+   17  kubectl get pods
+   18  git pull
+   19  kubectl get pods
+   20  kubectl apply -f pod.yml 
+   21  kubectl get pods
+   22  kubectl delete -f pod.yml 
+   23  kubectl get pods
+   24   kubectl delete -f https://raw.githubusercontent.com/kubernetes/website/master/content/en/examples/application/nginx-app.yaml 
+   25  kubectl get pods
+   26  kubectl delete pod kubernetes-66b6c48dd5-mvpwd  
+   27  kubectl get pods
+   28  history 
+   29  history >> comandos.txt
